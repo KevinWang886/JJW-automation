@@ -508,22 +508,32 @@ undo_success:
   _trade_content: buy_tv
   _done_btn: confirm_btn
 
-trade_apply_records:
+trade_records_page:
+  _type_fund: fund_btn_text
+  _type_group: group_btn_text
   _trade_type: trade_type_ck
-  _trade_time: trade_date_ck
+  _trade_date: trade_date_ck
+  _trade_status: trade_status_ck
   _all: //*[@text='全部']
   _subscribe: //*[@text='认购']
   _buy: //*[@text='申购']
   _redeem: //*[@text='赎回']
   _transfer: //*[@text='转换']
-  _undo: //*[@text='撤单']
   _fix: //*[@text='定投']
-  _modify_dividend: //*[@text='修改分红方式']
+  _force_redeem: //*[@text='强赎']
+  _force_add: //*[@text='强增']
+  _force_cut: //*[@text='强减']
   _one_month: //*[@text='最近一个月']
   _three_months: //*[@text='三个月']
   _one_year: //*[@text='一年']
-  _trade_record: transaction_record_item
-  _state: state
+  _confirming: //*[@text='确认中']
+  _confirm_success: //*[@text='确认成功']
+  _confirm_fail: //*[@text='确认失败']
+  _trade_fail: //*[@text='交易失败']
+  _undo: //*[@text='已撤单']
+  _trade_type_text: trans_type
+  _trans_state_text: trans_state
+  _trade_record: //*[@resource-id='com.linlong.fund.uat:id/application_listview']/android.widget.LinearLayout
 
 trade_record_details:
   _trade_status: status

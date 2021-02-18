@@ -79,6 +79,7 @@ test_buy_fund:
   _toast_text: 请输入购买金额
   _success_text: 申请成功！
   _larger_than_bank_limit: 买入金额超过银行卡限额
+  _password: '125566'
 
 test_home_page:
   _device_name: 夜神2
@@ -102,7 +103,8 @@ test_fund_transfer:
   _device_name: 夜神1
   _success_text: 操作成功！
   _toast_text: 选择想转入的基金
-  __toast_text_1: 请输入转出份额
+  _toast_text_1: 请输入转出份额
+  _password: '125566'
 
 test_fix_plan:
   _mobile: 17696664440
@@ -112,6 +114,7 @@ test_fix_plan:
   _fund_code: '501001'
   _toast_text: 操作成功
   _trade_type: 039
+  _password: '125566'
 
 
 test_register_open_account:
@@ -144,6 +147,7 @@ test_redeem:
   _mobile: 17696664440
   _pwd: 123456a
   _success_text: 操作成功！
+  _password: '125566'
 
 test_fund_market:
   _device_name: 夜神2
@@ -153,9 +157,9 @@ test_fund_market:
   _new_school_title: 新手学堂
   _info_disclosure_title: 信息披露
 
-test_trade_query:
-  _device_name: 夜神2
-  _mobile: 15900020005
+test_trade_records:
+  _device_name: 夜神1
+  _mobile: 17696664440
   _pwd: 123456a
 
 test_undo:
@@ -166,6 +170,7 @@ test_undo:
   _buy_success: 支付成功！
   _success_text: 操作成功!
   _trade_content: 撤销
+  _password: '125566'
 
 test_subscribe_fund:
   _fund_code: DR0001
@@ -189,7 +194,7 @@ test_modify_dividend:
   _mobile: 17696664441
   _pwd: 123456a
   _success_text: 操作成功！
-
+  _password: '125566'
 
 
 

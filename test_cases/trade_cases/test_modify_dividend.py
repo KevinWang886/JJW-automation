@@ -5,7 +5,6 @@ from page.modify_dividend_page import ModifyDividendPage
 from page.modify_dividend_success import ModifyDividendSuccess
 from page.my_holding import MyHolding
 from page.password import InputPassword
-from page.product_page import ProductPage
 
 
 class TestModifyDividend:
@@ -25,6 +24,7 @@ class TestModifyDividend:
         self.modify_dividend.fund_holding_details(4)
         ModifyDividendPage.select_dividend_method(self.modify_dividend.ll)
         ModifyDividendPage.click_confirm_btn(self.modify_dividend.ll)
-        InputPassword.input_password(self.modify_dividend.ll)
+        InputPassword.input_password(self.modify_dividend.ll,
+                                     BasePage(self).get_data()['test_modify_dividend']['_password'])
         assert BasePage.get_data(self.modify_dividend.ll)['test_modify_dividend']['_success_text'] == \
                ModifyDividendSuccess.get_success_text(self.modify_dividend.ll)

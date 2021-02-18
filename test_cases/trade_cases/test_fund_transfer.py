@@ -2,7 +2,6 @@ import allure
 from base.base_page import BasePage
 from page.public_methods import PublicMethod
 from page.my_holding import MyHolding
-from page.product_page import ProductPage
 from page.transfer_success_page import TransferSuccessPage
 
 
@@ -23,7 +22,7 @@ class TestFundTransfer:
         MyHolding.click_holding_fund(self.fund_transfer.ll)
         self.fund_transfer.fund_holding_details(0)
         # FundTransferPage.click_transfer_btn(self.fund_transfer.ll)
-        self.fund_transfer.select_transfer_fund()
+        self.fund_transfer.select_transfer_fund(BasePage(self).get_data()['test_fund_transfer']['_password'])
         # assert float(ConfirmTransferPage.get_transfer_share(self.fund_transfer.ll)) == float(self.transfer_share)
         # InputPassword.input_password(self.fund_transfer.ll)
         assert TransferSuccessPage.get_success_text(self.fund_transfer.ll) == \

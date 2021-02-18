@@ -2,7 +2,7 @@ import time
 import allure
 from base.base_page import BasePage
 from page.public_methods import PublicMethod
-from page.trade_apply_records import TradeApplyRecords
+from page.trade_records_page import TradeApplyRecords
 from page.trade_record_details import TradeRecordDetails
 
 

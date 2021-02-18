@@ -22,7 +22,8 @@ class TestFixPlan:
                                                   0, 2)
         self.fix_plan.search_and_click(BasePage(self).get_data()['test_fix_plan']['_fund_code'])
         self.fix_plan.fund_info(action=1)
-        self.fix_plan.input_fix_plan(fix_amount=self.fix_amount)
+        self.fix_plan.input_fix_plan(fix_amount=self.fix_amount,
+                                     pwd=BasePage(self).get_data()['test_fix_plan']['_password'])
         assert FixPlanSuccess.get_success_text(self.fix_plan.ll) == \
                BasePage(self).get_data()['test_fix_plan']['_success_text']
         self.fix_plan.teardown()

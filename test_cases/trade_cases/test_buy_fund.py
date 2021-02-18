@@ -22,7 +22,7 @@ class TestBuyFund:
                                                   0, 2)
         self.buy_fund.search_and_click(BasePage(self).get_data()['test_buy_fund']['_fund_code'])
         self.buy_fund.fund_info(0)
-        self.buy_fund.input_buy_info(self.amount)
+        self.buy_fund.input_buy_info(self.amount, pwd=BasePage(self).get_data()['test_buy_fund']['_password'])
         assert BasePage(self).get_data()['test_buy_fund']['_success_text'] == \
                BuyFundSuccess.get_success_text(self.buy_fund.ll)
         self.buy_fund.teardown()

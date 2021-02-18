@@ -23,7 +23,8 @@ class TestRedeem:
                                                   BasePage(self).get_data()['test_redeem']['_pwd'], 0, 7)
         MyHolding.click_holding_fund(self.redeem.ll)
         self.redeem.fund_holding_details(1)
-        self.redeem.input_redeem_info(self.redeem_share, tag=0)
+        self.redeem.input_redeem_info(self.redeem_share, tag=0,
+                                      pwd=BasePage(self).get_data()['test_redeem']['_password'])
         assert BasePage(self).get_data()['test_redeem']['_success_text'] == \
                RedeemSuccess.get_success_text(self.redeem.ll)
 

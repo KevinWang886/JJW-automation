@@ -37,9 +37,9 @@ from page.select_transfer_fund import SelectTransferFund
 from page.set_dividend_page import SetDividendPage
 from selenium.webdriver.common.by import By
 from page.set_trade_pwd import SetTradePwd
-from page.trade_apply_records import TradeApplyRecords
 from page.trade_query_page import TradeQueryPage
 from page.trade_undo import TradeUndo
+from page.trade_records_page import TradeRecordsPage
 
 
 class PublicMethod:
@@ -168,6 +168,39 @@ class PublicMethod:
         PersonInfo.click_submit_btn(self.ll)
         InputPassword.input_password(self.ll)
 
+    def trade_records(self, action, tag):
+        if action == '交易类型':
+            TradeRecordsPage.click_trade_type(self.ll)
+            if tag == 0:
+                TradeRecordsPage.select_buy(self.ll)
+                assert TradeRecordsPage.get_record_type(self.ll) == "申购"
+            elif tag == 1:
+                TradeRecordsPage.select_redeem(self.ll)
+                assert TradeRecordsPage.get_record_type(self.ll) == "赎回"
+            elif tag == 2:
+                TradeRecordsPage.select_transfer(self.ll)
+                assert TradeRecordsPage.get_record_type(self.ll) == "转换"
+            elif tag == 3:
+                TradeRecordsPage.select_fix(self.ll)
+                assert TradeRecordsPage.get_record_type(self.ll) == "定投"
+        elif action == '交易状态':
+            TradeRecordsPage.click_trade_status(self.ll)
+            if tag == 0:
+                TradeRecordsPage.select_confirming(self.ll)
+                assert TradeRecordsPage.get_record_state(self.ll) == "确认中"
+            elif tag == 1:
+                TradeRecordsPage.select_confirm_success(self.ll)
+                assert TradeRecordsPage.get_record_state(self.ll) == "确认成功"
+            elif tag == 4:
+                TradeRecordsPage.select_confirm_fail(self.ll)
+                assert TradeRecordsPage.get_record_state(self.ll) == "确认失败"
+            elif tag == 3:
+                TradeRecordsPage.select_trade_fail(self.ll)
+                assert TradeRecordsPage.get_record_state(self.ll) == "交易失败"
+            elif tag == 2:
+                TradeRecordsPage.select_undo(self.ll)
+                assert TradeRecordsPage.get_record_state(self.ll) == "已撤单"
+
     # def modify_id_valid_date(self):   # 修改身份证有效期
     #     PersonInfo.id_valid_date(self.ll)
     #     PersonInfo.select_id_valid_date(self.ll)
@@ -270,7 +303,7 @@ class PublicMethod:
         SearchPage.input_info(self.ll, fund_code=fund_code)
         SearchPage.click_search_result(self.ll)
 
-    def input_buy_info(self, amount):   # 输入购买信息
+    def input_buy_info(self, amount, pwd):   # 输入购买信息
         lowest_amount = InputBuyFundInfo.get_lowest_amount(self.ll)
         if float(amount) < float(lowest_amount):
             InputBuyFundInfo.input_buy_amount(self.ll, amount)
@@ -281,7 +314,7 @@ class PublicMethod:
             InputBuyFundInfo.input_buy_amount(self.ll, amount)
             InputBuyFundInfo.check_announcement(self.ll)
             InputBuyFundInfo.click_next_btn(self.ll)
-            InputPassword.input_password(self.ll)
+            InputPassword.input_password(self.ll, pwd)
             # if BasePage.is_element_exist(self.ll,
             #                              BasePage.get_file_from_yaml(self.ll)
             #                              ['input_buy_fund_info']['_confirm_alert']) == True:
@@ -314,7 +347,7 @@ class PublicMethod:
         calculate_market_value = FundTransferPage.get_hold_share * FundTransferPage.get_nav_value
         return round(calculate_market_value, 2)
 
-    def select_transfer_fund(self):   # 输入转出份额，选择转换入基金，勾选协议，点击下一步按钮
+    def select_transfer_fund(self, pwd):   # 输入转出份额，选择转换入基金，勾选协议，点击下一步按钮
         SelectTransferFund.click_transfer_twenty(self.ll)
         SelectTransferFund.click_transfer_fund(self.ll)
         SelectTransferFund.select_fund(self.ll)
@@ -325,7 +358,7 @@ class PublicMethod:
             SelectTransferFund.confirm_tip(self.ll)
             InputPassword.input_password(self.ll)
         else:
-            InputPassword.input_password(self.ll)
+            InputPassword.input_password(self.ll, pwd)
 
     # def not_input_transfer_amount(self):   # 未输入转出份额，选择转换入基金，勾选协议，点击下一步按钮
     #     SelectTransferFund.click_transfer_fund(self.ll)
@@ -428,14 +461,14 @@ class PublicMethod:
         elif action == 2:
             FundInfo.click_add_selection(self.ll)
 
-    def input_fix_plan(self, fix_amount):   # 输入定投计划
+    def input_fix_plan(self, fix_amount, pwd):   # 输入定投计划
         InputFixPlan.input_fix_amount(self.ll, fix_amount)
         PublicMethod.select_fix_cycle(self)
         PublicMethod.select_fix_date(self)
         # PublicMethod.select_pay_fail_type(self)
         InputFixPlan.click_checkbox(self.ll)
         InputFixPlan.click_next_btn(self.ll)
-        InputPassword.input_password(self.ll)
+        InputPassword.input_password(self.ll, pwd)
         # InputFixPlan.confirm_alert(self.ll)
 
     def confirm_and_input_pwd(self, trade_type):   # 点击确定并输入交易密码
@@ -528,7 +561,7 @@ class PublicMethod:
         SetTradePwd.input_confirm_trade_pwd(self.ll, confirm_trade_pwd)
         SetTradePwd.click_next_btn(self.ll)
 
-    def input_redeem_info(self, redeem_share, tag):    # 输入赎回信息，并点下一步
+    def input_redeem_info(self, redeem_share, tag, pwd):    # 输入赎回信息，并点下一步
         lowest_redeem_share = InputRedeemInfo.get_watermark(self.ll)
         available_share = InputRedeemInfo.get_available_share(self.ll)
         if tag == 0:
@@ -555,7 +588,7 @@ class PublicMethod:
         elif tag == 4:
             InputRedeemInfo.click_redeem_all(self.ll)
             InputRedeemInfo.click_confirm_redeem_btn(self.ll)
-        InputPassword.input_password(self.ll)
+        InputPassword.input_password(self.ll, pwd)
 
     def redeem_all(self):   # 输入赎回信息页，点全部赎回，并点下一步
         InputRedeemInfo.click_redeem_all(self.ll)

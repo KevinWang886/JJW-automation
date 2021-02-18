@@ -27,14 +27,12 @@ class TestUndo:
     @allure.title("申购撤单")
     def test_buy_undo(self):
         self.undo.setup(BasePage(self).get_data()['test_undo']['_device_name'])
-        self.undo.swap_guide_and_go_to_different_pages(4)
+        self.undo.agree_private_annce_skip_guide_page(1)
         self.undo.login_and_go_to_other_pages(BasePage(self).get_data()['test_undo']['_mobile'],
-                                              BasePage(self).get_data()['test_undo']['_pwd'], tag=6)
-        HomePage.click_search_btn(self.undo.ll)
+                                              BasePage(self).get_data()['test_undo']['_pwd'], 0, 2)
         self.undo.search_and_click(BasePage(self).get_data()['test_undo']['_fund_code'])
-        FundInfo.click_buy_now(self.undo.ll)
-        self.undo.input_buy_info(self.amount)
-        self.undo.confirm_and_input_pwd(trade_type='022')
+        self.undo.fund_info(0)
+        self.undo.input_buy_info(self.amount, pwd=BasePage(self).get_data()['test_undo']['_password'])
         assert BasePage(self).get_data()['test_undo']['_buy_success'] == BuyFundSuccess.get_success_text(self.undo.ll)
         BuyFundSuccess.click_done_btn(self.undo.ll)   # 购买成功页面点击完成
         FundInfo.click_return(self.undo.ll)   # 基金详情页点击返回按钮
