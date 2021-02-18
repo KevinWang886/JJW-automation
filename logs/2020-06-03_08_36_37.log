@@ -1,0 +1,9 @@
+2020-06-03 08:36:39,234 DEFAULT INFO appium服务已经启动：  TCP    127.0.0.1:4724         0.0.0.0:0              LISTENING       11596
+  TCP    127.0.0.1:60821        127.0.0.1:4724         TIME_WAIT       0
+  TCP    127.0.0.1:60822        127.0.0.1:4724         TIME_WAIT       0
+  TCP    127.0.0.1:60823        127.0.0.1:4724         TIME_WAIT       0
+
+2020-06-03 08:37:08,255 DEFAULT INFO 未进入定投页面
+2020-06-03 08:37:08,371 DEFAULT INFO 无搜索结果
+2020-06-03 08:37:25,453 DEFAULT INFO <page.guide_page.GuidePage object at 0x000000000563D5F8> 页面中未能找到 search_et 元素
+2020-06-03 08:37:26,000 DEFAULT INFO 无法输入！！！

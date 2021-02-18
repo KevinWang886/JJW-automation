@@ -1,0 +1,10 @@
+2020-06-24 09:17:46,516 DEFAULT INFO appium服务已经启动：  TCP    127.0.0.1:4724         0.0.0.0:0              LISTENING       3424
+  TCP    127.0.0.1:64041        127.0.0.1:4724         TIME_WAIT       0
+  TCP    127.0.0.1:64042        127.0.0.1:4724         TIME_WAIT       0
+  TCP    127.0.0.1:64043        127.0.0.1:4724         TIME_WAIT       0
+  TCP    127.0.0.1:64185        127.0.0.1:4724         TIME_WAIT       0
+  TCP    127.0.0.1:64186        127.0.0.1:4724         TIME_WAIT       0
+  TCP    127.0.0.1:64187        127.0.0.1:4724         TIME_WAIT       0
+
+2020-06-24 09:18:57,848 DEFAULT INFO <page.guide_page.GuidePage object at 0x000000000561C4A8> 页面中未能找到 cut_payment 元素
+2020-06-24 09:18:58,168 DEFAULT INFO 点击无效！！！

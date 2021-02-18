@@ -1,0 +1,4 @@
+2020-06-09 16:40:17,684 DEFAULT INFO appium服务已经启动：  TCP    127.0.0.1:4724         0.0.0.0:0              LISTENING       3992
+  UDP    [::]:54724             *:*                                    1200
+
+2020-06-09 16:40:50,511 DEFAULT INFO <page.guide_page.GuidePage object at 0x00000000056AE438> 页面中未能找到 fund_ranking_list_item_linearLayout 元素

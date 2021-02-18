@@ -1,0 +1,10 @@
+2020-06-02 14:06:37,838 DEFAULT INFO appium服务已经启动：  TCP    127.0.0.1:4724         0.0.0.0:0              LISTENING       11596
+  TCP    127.0.0.1:63522        127.0.0.1:4724         TIME_WAIT       0
+  TCP    127.0.0.1:63523        127.0.0.1:4724         TIME_WAIT       0
+  TCP    127.0.0.1:63524        127.0.0.1:4724         TIME_WAIT       0
+  TCP    127.0.0.1:63731        127.0.0.1:4724         TIME_WAIT       0
+  TCP    127.0.0.1:63732        127.0.0.1:4724         TIME_WAIT       0
+  TCP    127.0.0.1:63733        127.0.0.1:4724         TIME_WAIT       0
+
+2020-06-02 14:07:07,138 DEFAULT INFO 没有可转出基金
+2020-06-02 14:07:23,421 DEFAULT INFO <page.guide_page.GuidePage object at 0x00000000056FE518> 页面中未能找到 hint_tv 元素

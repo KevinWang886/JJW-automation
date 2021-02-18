@@ -1,0 +1,11 @@
+2020-06-03 08:51:25,730 DEFAULT INFO appium服务已经启动：  TCP    127.0.0.1:4724         0.0.0.0:0              LISTENING       11596
+  TCP    127.0.0.1:5037         127.0.0.1:64724        TIME_WAIT       0
+  TCP    127.0.0.1:64146        127.0.0.1:4724         TIME_WAIT       0
+  TCP    127.0.0.1:64147        127.0.0.1:4724         TIME_WAIT       0
+  TCP    127.0.0.1:64148        127.0.0.1:4724         TIME_WAIT       0
+  TCP    127.0.0.1:64541        127.0.0.1:4724         TIME_WAIT       0
+  TCP    127.0.0.1:64542        127.0.0.1:4724         TIME_WAIT       0
+  TCP    127.0.0.1:64543        127.0.0.1:4724         TIME_WAIT       0
+
+2020-06-03 08:52:11,358 DEFAULT INFO <page.guide_page.GuidePage object at 0x000000000565F400> 页面中未能找到 to_leftof_right_btn_iv 元素
+2020-06-03 08:52:12,210 DEFAULT INFO 点击无效！！！

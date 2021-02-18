@@ -1,0 +1,7 @@
+2020-06-24 09:19:15,021 DEFAULT INFO appium服务已经启动：  TCP    127.0.0.1:4724         0.0.0.0:0              LISTENING       3424
+  TCP    127.0.0.1:64187        127.0.0.1:4724         TIME_WAIT       0
+  TCP    127.0.0.1:64361        127.0.0.1:4724         TIME_WAIT       0
+  TCP    127.0.0.1:64362        127.0.0.1:4724         TIME_WAIT       0
+  TCP    127.0.0.1:64363        127.0.0.1:4724         TIME_WAIT       0
+
+2020-06-24 09:19:53,192 DEFAULT INFO <page.guide_page.GuidePage object at 0x000000000572C160> 页面中未能找到 modify_bt 元素

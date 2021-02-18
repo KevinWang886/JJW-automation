@@ -1,0 +1,12 @@
+2020-06-22 09:46:19,702 DEFAULT INFO <page.guide_page.GuidePage object at 0x0000000003C270B8> 页面中未能找到 balance_tv 元素
+2020-06-22 09:46:21,819 DEFAULT INFO appium服务已经启动：  TCP    127.0.0.1:4724         0.0.0.0:0              LISTENING       14072
+  TCP    127.0.0.1:4724         127.0.0.1:65192        ESTABLISHED     14072
+  TCP    127.0.0.1:65192        127.0.0.1:4724         ESTABLISHED     8896
+
+2020-06-22 09:47:22,046 DEFAULT INFO appium服务已经启动：  TCP    127.0.0.1:4724         0.0.0.0:0              LISTENING       14072
+  TCP    127.0.0.1:4724         127.0.0.1:65449        ESTABLISHED     14072
+  TCP    127.0.0.1:65192        127.0.0.1:4724         TIME_WAIT       0
+  TCP    127.0.0.1:65447        127.0.0.1:4724         TIME_WAIT       0
+  TCP    127.0.0.1:65448        127.0.0.1:4724         TIME_WAIT       0
+  TCP    127.0.0.1:65449        127.0.0.1:4724         ESTABLISHED     8896
+

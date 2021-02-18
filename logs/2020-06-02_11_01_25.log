@@ -1,0 +1,6 @@
+2020-06-02 11:01:27,547 DEFAULT INFO appium服务已经启动：  TCP    127.0.0.1:4724         0.0.0.0:0              LISTENING       11596
+  TCP    127.0.0.1:55953        127.0.0.1:4724         TIME_WAIT       0
+  TCP    127.0.0.1:55954        127.0.0.1:4724         TIME_WAIT       0
+  TCP    127.0.0.1:55955        127.0.0.1:4724         TIME_WAIT       0
+
+2020-06-02 11:02:14,126 DEFAULT INFO <page.guide_page.GuidePage object at 0x00000000056770F0> 页面中未能找到 tvMessage 元素

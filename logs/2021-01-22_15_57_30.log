@@ -1,0 +1,5 @@
+2021-01-22 15:57:32,487 DEFAULT INFO appium服务已经启动：  TCP    0.0.0.0:4723           0.0.0.0:0              LISTENING       4304
+  TCP    127.0.0.1:4723         0.0.0.0:0              LISTENING       11260
+
+2021-01-22 15:58:13,220 DEFAULT INFO <page.guide_page.GuidePage object at 0x0000000005882860> 页面中未能找到 //*[@text='财通多策略升级混合(LOF) (501015)'] 元素
+2021-01-22 15:58:13,483 DEFAULT INFO 点击无效！！！

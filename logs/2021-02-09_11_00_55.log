@@ -1,0 +1,4 @@
+2021-02-09 11:00:57,427 DEFAULT INFO appium服务已经启动：  TCP    127.0.0.1:4723         0.0.0.0:0              LISTENING       4392
+
+2021-02-09 11:01:37,285 DEFAULT INFO <page.guide_page.GuidePage object at 0x0000000005848710> 页面中未能找到 ad_close_iv 元素
+2021-02-09 11:01:37,638 DEFAULT INFO 点击无效！！！

@@ -1,0 +1,7 @@
+2020-06-01 11:44:25,387 DEFAULT INFO appium服务已经启动：  TCP    0.0.0.0:4723           0.0.0.0:0              LISTENING       8880
+  TCP    127.0.0.1:54261        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:54262        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:54263        127.0.0.1:4723         TIME_WAIT       0
+
+2020-06-01 11:45:05,487 DEFAULT INFO <page.guide_page.GuidePage object at 0x0000000005643550> 页面中未能找到 confirm_btn 元素
+2020-06-01 11:45:05,644 DEFAULT INFO 点击无效！！！

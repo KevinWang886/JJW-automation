@@ -1,0 +1,4 @@
+2020-06-02 11:08:37,053 DEFAULT INFO appium服务已经启动：  TCP    127.0.0.1:4724         0.0.0.0:0              LISTENING       11596
+
+2020-06-02 11:09:26,451 DEFAULT INFO <page.guide_page.GuidePage object at 0x000000000568B668> 页面中未能找到 //*[@resource-id='com.linlong.fund.debug2:id/all_fund_listview']/android.widget.LinearLayout[1] 元素
+2020-06-02 11:09:26,711 DEFAULT INFO 点击无效！！！

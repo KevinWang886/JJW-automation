@@ -1,0 +1,4 @@
+2020-06-22 15:40:54,926 DEFAULT INFO appium服务已经启动：  TCP    127.0.0.1:4724         0.0.0.0:0              LISTENING       16100
+
+2020-06-22 15:41:47,433 DEFAULT INFO <page.guide_page.GuidePage object at 0x00000000056CE400> 页面中未能找到 confirm_btn 元素
+2020-06-22 15:41:47,685 DEFAULT INFO 点击无效！！！

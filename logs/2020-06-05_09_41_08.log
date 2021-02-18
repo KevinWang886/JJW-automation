@@ -1,0 +1,4 @@
+2020-06-05 09:41:10,407 DEFAULT INFO appium服务已经启动：  TCP    0.0.0.0:4723           0.0.0.0:0              LISTENING       13168
+  TCP    127.0.0.1:49220        127.0.0.1:4723         TIME_WAIT       0
+
+2020-06-05 09:41:54,177 DEFAULT INFO <page.guide_page.GuidePage object at 0x00000000056536A0> 页面中未能找到 enable_share 元素

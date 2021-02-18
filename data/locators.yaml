@@ -1,0 +1,532 @@
+guide_page:
+  _agree: confirm
+  _cancel: cancel
+  _go_btn: goButton
+  _go_register_btn: goRegister
+  _skip: skip_button
+
+product_page:
+  _suggest_fund_buy: buy_fund_button
+  _btn_text: share_tv_text
+  _mine_btn: mineMenu
+  _famous_btn: fundMenu
+  _driver_btn: driverMenu
+  _fund_market: hot_fund_btn
+  _register: new_fund_ll
+  _search_btn: search_btn
+  _product_btn: homeMenu
+  _ad_close: ad_close_iv
+  _ad: ad_iv
+
+private_info:
+  _confirm: confirm
+  _private_title: title
+  _private_content: content
+
+home_page:
+  _fund_market: fundMenu
+  _mine_page: mineMenu
+  _search_btn: search_btn
+  _hot_fund: hot_fund_btn
+  _new_fund: new_fund_ll
+  _pingan_finance: go_pingan_money
+  _quick_reg: quick_reg_btn
+  _btn_text: share_tv_text
+  _advise_funds: item_info_btn
+  _fund_item_btn: item_info_btn
+  _frame: com.linlong.fund.debug2:id/action_bar_root
+  _more_btn: more_btn
+  _hqlc: current_manage_btn
+  _gzdt: wages_invest_btn
+  _ptsl: goto_compony_LL
+  _go_bind_card: confirm
+  _cancel_bind_card: cancel
+
+
+fund_market_page:
+  _fund_rank: fund_rank
+  _information_disclosure: information_disclosure
+  _recommend: fund_top_recommend_linearLayout
+  _hot: fund_top_hot_linearLayout
+  _item: fund_top_theme_linearLayout
+  _tab_fund_list: //*[@resource-id='com.linlong.fund.debug2:id/fund_listview']/android.widget.LinearLayout
+  _star_fund: star_fund
+  _new_school: new_school
+
+modify_email:
+  _new_email: email_et
+  _login_pwd: password_et
+  _confirm_btn: confirm_btn
+
+modify_mobile:
+  _id_no: id_card_et
+  _name: name_et
+  _current_mobile: old_mobile_et
+  _new_mobile: new_mobile_et
+  _get_code: ch_sendCheckCode
+  _input_code: ufx_et
+  _trade_pwd: deal_password_et
+  _confirm_btn: confirm_btn
+  
+new_fund_page:
+  _page_title: title_tv
+
+hot_fund_page:
+  _page_title: title_tv
+  _fund_name: fund_name_tv
+
+login:
+  _account: account_et
+  _password : password_et
+  _login : login_btn
+  _cancel : cancel
+  _confirm : confirm
+  _menu_button : mainMenu
+  _my_fund_locator : fragment_mine_myFund_relativelayout
+  _gesture : content
+  _toast : //*[@class='android.widget.Toast']
+  _register_account: reg_btn
+  _product_page: homeMenu
+  _forget_btn : reset_psw_btn
+
+mine_page:
+  _main_menu: homeMenu
+  _famous_menu: fundMenu
+  _account_management: account_btn
+  _navigation: navigation
+  _my_asserts: assets_group_layout
+  _driver_menu: driverMenu
+  _trade_record: trade_record
+  _mobile: phone_num_tv
+  _name: name_tv
+  _create_group: create_fund_group_button
+  _fix_buy: fund_invest_regularly_button
+  _dividened: fragment_mine_myFund_relativelayout
+  _going_trade: going_trade_layout
+  _activity_linearlayout: activity_linearlayout
+  _my_subscribe: transaction
+  _my_selected: pledge
+  _my_mall: integralMallLayout
+  _share: share_invite_layout
+  _point_tv: point_tv
+  _my_assert: assets_group_layout
+
+account_management_page:
+  _personal_info: person_btn
+  _mobile_number: phone_btn
+  _phone_number: phone_no_tv
+  _bank_card_count: bank_count_tv
+  _bank_cards: my_bank_card_btn
+  _personal_risk: risk_btn
+  _safe_set : modify_login_pwd_btn
+  _more: more_btn
+  _logout: logout_btn
+  _back_btn: left_btn
+  _confirm_logout: confirm
+  _cancel_logout: cancel
+
+person_info_page:
+  _back_btn: left_btn
+  _id_valid_date: id_validity_btn
+  _connected_address: connected_address_btn
+  _professional: connected_professional_btn
+  _professional_text: connected_professional_tv
+  _marriage_status: marriage_status_btn
+  _marriage_text: marriage_status_tv
+  _education: education_btn
+  _education_text: education_tv
+  _annual_income: annual_income_btn
+  _annual_income_text: annual_income_tv
+  _choose_city: chooseProviceCityBtn
+  _detail_address: detailAddressEt
+  _save: saveBtn
+  _picker: picker_view
+  _cancel: cancel_btn
+  _confirm: confirm_btn
+  _submit: submit_button
+
+
+password_page:
+  _location: view_keyboard
+
+reset_pwd_page:
+  _mobile: mobile_et
+  _get_code: ch_sendCheckCode
+  _verify_code: ufx_et
+  _pwd: pwd_et
+  _confirm_pwd: confirm_pwd_et
+  _confirm_btn: confirm_btn
+
+reset_trade_pwd_page:
+  _id_no: id_card_et
+  _name: name_et
+  _mobile: mobile_et
+  _get_code: ch_sendCheckCode
+  _verify_code: ufx_et
+  _pwd: pwd_et
+  _confirm_pwd: confirm_pwd_et
+  _confirm_btn: confirm_btn
+
+search_page:
+  _search: search_et
+  _cancel_btn: cancel_btn
+  _clear: clear_iv
+  _none: tvMessage
+  _list: item_search_fund_textview
+
+fund_details_page:
+  _fund_net: fundNet_tv
+  _fix_buy: pledge_btn
+  _buy: buy_btn
+  _fund_type: fundTypeName_tv
+  _daily_range: rangDay_tv
+
+fund_info:
+  _buy_now: buy_btn
+  _fix_buy: pledge_btn
+  _page_title: title_tv
+  _fund_code: sub_title_tv
+  _return_btn: left_btn
+  _add_selection: optional_button
+
+input_buy_fund_info:
+  _input_amount: buy_et
+  _checkbox: wb_ck
+  _confirm_btn: next_btn
+  _lowest_amount : hint_tv
+  _close_btn: close_btn
+  _warn: tip_layout
+  _card_limit: limit_tv
+  _cancel_alert: cancel
+  _confirm_alert: confirm
+  _cancel_subscribe: cancel
+  _confirm_subscribe: confirm
+  _amount_limit_text: charge_argument_text
+
+confirm_buy_info:
+  _confirm_btn: confirm_btn
+  _balance: balance_tv
+  _order_date: order_date_tv
+
+buy_fund_success:
+  _success_text: is_success
+  _trade_record_btn: confirm_btn
+  _done: finish_textview
+
+
+common_blank_page:
+  _buy_btn: buy_btn
+  _fix_buy_btn: invest_btn
+  _message: tvMessage
+
+trade_query:
+  _hold_details: take_details
+  _apply_records: application_record
+  _confirm_records: confirm_record
+
+fund_trade:
+  _buy_fund: //*[@resource-id='com.linlong.fund.debug2:id/rv']/android.widget.LinearLayout[1]/android.widget.RelativeLayout
+  _redeem_fund: //*[@resource-id='com.linlong.fund.debug2:id/rv']/android.widget.LinearLayout[2]/android.widget.RelativeLayout
+  _transfer_fund: //*[@resource-id='com.linlong.fund.debug2:id/rv']/android.widget.LinearLayout[3]/android.widget.RelativeLayout
+  _trade_undo: //*[@resource-id='com.linlong.fund.debug2:id/rv']/android.widget.LinearLayout[4]/android.widget.RelativeLayout
+  _set_dividend: //*[@resource-id='com.linlong.fund.debug2:id/rv']/android.widget.LinearLayout[5]/android.widget.RelativeLayout
+
+fund_fix_buy:
+  _add_fix_plan: com.linlong.fund.debug2:id/add_pledge_btn
+  _modify: modify_bt
+  _spause_or_renew: spause_bt
+  _spause: //*[@text='暂停']
+  _renew: //*[@text='恢复']
+  _stop: stop_bt
+  _fund_list: all_fund_listview
+  _alert_content: content
+  _alert_cancel: cancel
+  _alert_confirm: confirm
+
+product_store:
+  _exchange_details: to_leftof_right_btn_iv
+  _my_reward : right_btn_iv
+  _product: //*[@resource-id='com.linlong.fund.debug2:id/list_view']/android.widget.LinearLayout[2]/android.widget.LinearLayout
+  _product_name: goodsName_tv
+
+fund_transfer_page:
+  _transfer_btn: redemption_bt
+  _fund_list: com.linlong.fund.debug2:id/all_fund_listview
+  _hold_share: count_value
+  _available_share: available_count_vlaue
+  _nav_value: nav_value
+  _market_value: market_value
+
+select_transfer_fund:
+  _input_share: //*[@resource-id='com.linlong.fund.uat:id/stransfer_share']/android.widget.EditText
+  _select_transfer_btn: select_transfer_in_layout
+  _hint_text: hint_tv
+  _next_btn: next_tv
+  _all_transfer: proportion_100_rb
+  _twenty_percent: proportion_20_rb
+  _thirty_percent: proportion_30_rb
+  _fifty_percent: proportion_50_rb
+  _available_share: enable_share
+  _fund_list: fund_name_tv
+  _transfer_rule: right_btn_tv
+  _tip_content: content
+  _confirm_btn: confirm
+  _cancel_btn: cancel
+
+confirm_transfer_page:
+  _transfer_share: transfer_value
+  _confirm_transfer_btn: confirm_btn
+  _order_date: commit_date
+  _close_warn: close_btn
+  _transfer_rule: right_btn_tv
+
+transfer_success_page:
+  _success_text: transfer_success
+  _done_btn: confirm_bt
+  _transfer_share: share
+
+set_dividend_page:
+  _modify_dividend: profit_bt
+  _current_dividend: profit_type
+  _modifing: profit_tv
+
+modify_dividend_page:
+  _dividend_imageview: dividend_investment_select_imageview
+  _current_dividend: profit_type
+  _confirm_modify_btn: modify_confirm_btn
+  _modify_to: change_profit_type
+  _warn_close: close_btn
+  _tip: tip_layout
+
+modify_dividend_success:
+  _success_text: is_success
+  _confirm_modify_btn: modify_confirm_btn
+  _modify_to: change_profit_type
+  _done_btn: confirm_btn
+
+fund_order_page:
+  _gupiao: //*[@text='股票型']
+  _zhaiquan: //*[@text='债券型']
+  _hunhe: //*[@text='混合型']
+  _zhishu: //*[@text='指数型']
+  _QDII: //*[@text='QDII']
+  _LOF: //*[@text='LOF']
+  _huobi: //*[@text='货币型']
+  _fund_list: fund_ranking_list_item_linearLayout
+  _search_btn: to_leftof_right_btn_iv
+  _search_box: search_et
+  _search_fund: tv
+  _filter_btn: right_btn_iv
+  _daily: day_tv
+  _one_month: one_month_tv
+  _three_month: three_month_tv
+  _six_month: six_month_tv
+  _one_year: one_year_tv
+  _all_type: all_type_tv
+  _can_buy: can_Buy_tv
+  _can_fix: can_Fix_tv
+  _order_text: order_tv_2
+
+input_fix_plan:
+  _watermark: hint_tv
+  _fix_amount: balance_et
+  _connected_account: connected_account
+  _fix_cycle: pledge_cycle_time
+  _fix_cycle_value: pledge_cycle_value
+  _fix_date: pledge_time
+  _fix_date_value: pledge_date_value
+  _checkbox: wb_ck
+  _next_btn: next_btn
+  _confirm_btn: confirm_btn
+  _picker_box: picker_view
+  _cancel_alert: cancel
+  _confirm_alert: confirm
+
+confirm_fix_plan:
+  _confirm_btn: confirm_btn
+  _confirm: confirm
+
+fix_plan_success:
+  _success_text: is_success
+  _fix_plan_amount: balance_tv
+  _done_btn: confirm_btn
+
+add_card_page:
+  _add_card_btn: add_card_btn
+  _change_btn: change_btn
+  _unbind_btn: unbind_btn
+  _status: status_tv
+  _bank_name: bank_name_tv
+
+bind_card_page:
+  _bank_btn: bank_btn
+  _bank_name: //*[@text='中国建设银行']
+  _card_no: card_et
+  _mobile_no: mobile_et
+  _get_code: ch_sendCheckCode
+  _verify_code: ufx_et
+  _trade_pwd: deal_password_et
+  _confirm_btn: confirm_btn
+
+register_page:
+  _mobile: //*[@text='请输入您的手机号']
+  _send_code: ch_sendCheckCode
+  _verify_code: //*[@text='请输入验证码']
+  _pwd: pwd_et
+  _confirm_pwd: confirm_pwd_et
+  _next_btn: next_btn
+
+
+bind_card:
+  _name: name_et
+  _id_card_no: id_card_et
+  _valid_date: id_validity_tv
+  _long_time: long_time_btn
+  _bank_card_no: card_et
+  _bank: bank_tv
+  _bank_name: //*[@text='中国建设银行']
+  _address: address_tv
+  _select_city: chooseProviceCityBtn
+  _province: //*[@text='辽宁省']
+  _city: //*[@text='沈阳市']
+  _save_btn: saveBtn
+  _professor: professional_tv
+  _select_professor: picker_view
+  _confirm_btn: confirm_btn
+  _mobile: mobile_et
+  _send_code: ch_sendCheckCode
+  _verify_code: ufx_et
+  _next_btn: next_btn
+
+set_trade_pwd:
+  _trade_pwd: deal_pwd_et
+  _confirm_trade_pwd: confirm_pwd_et
+  _next_btn: next_btn
+
+crs_page:
+  _confirm_btn: confirm_btn
+  _china_only: radio_cn_type
+  _not_china: radio_no_cn_type
+  _all_type: radio_all_type
+
+crs_details:
+  _lastname: crs_detail_lastname
+  _firstname: crs_detail_firstname
+  _gender: crs_detail_gender_linearlayout
+  _birthday: crs_detail_birthday_linearlayout
+  _year: picker_year
+  _month: picker_month
+  _day: picker_day
+  _picker: picker_view
+  _live_country: crs_detail_live_country_linearlayout
+  _live_address: crs_detail_live_address
+  _birth_country: crs_detail_birth_country_linearlayout
+  _birth_address: crs_detail_birth_address
+  _tax_country: crs_tax_country_linearlayout
+  _tax_number: crs_tax_number
+  _tax_reason: crs_tax_reason_linearlayout
+  _add_tax: crs_detail_add_tax
+  _delete_tax: crs_tax_delete
+  _confirm: confirm_btn
+  _submit_btn: crs_detail_commit
+
+register_success:
+  _success_text: //*[@text='注册成功']
+  _risk_text: test_btn
+  _go_to_mine: in_btn
+
+redeem_page:
+  _redeem_btn: redemption_bt
+  _warn_close_btn: close_btn
+  _warn_text: warn_tv
+  _hold_share: count_value
+  _available_share: available_count_vlaue
+  _market_value: market_value
+  _return_btn: left_btn
+
+input_redeem_info:
+  _input_redeem_share: //*[@class='android.widget.EditText']
+  _watermark: hint_tv
+  _available_share: enable_share
+  _next_btn: next_btn
+  _trade_alert: right_btn_tv
+  _confirm_btn: confirm
+  _cancel_btn: cancel
+  _all: proportion_100_rb
+  _twenty_percent: proportion_20_rb
+  _thirty_percent: proportion_30_rb
+  _fifty_percent: proportion_50_rb
+
+confirm_redeem:
+  _redeem_share: enable_share
+  _redeem_delay: redemption_tv
+  _confirm_btn: confirm_btn
+
+redeem_success:
+  _success_text: transfer_success
+  _redeem_share: redemption_count
+  _done_btn: finish_textview
+  _trade_record: confirm_btn
+
+my_holding:
+  _total_assert: activity_myfund_assets_textview
+  _total_income: activity_myfund_accumulatedIncome_textview
+  _yesterday_income: activity_myfund_yesterdayIncome_textview
+  _fund_tab: activity_myfund_combination_tab_textview
+  _group_tab: activity_myfund_fund_tab_textview
+  _fund_name_and_code: activity_myfund_item_name_textview
+  _select_fund: //*[@text='财通多策略升级混合(LOF) (501015)']
+  _holding_fund_list: activity_myfund_item_name_textview
+  _title: title_tv
+
+fund_holding_details:
+  _fund_details_btn: fund_detail_btn
+  _everyday_income_btn: everyday_income_btn
+  _trade_records_btn: trans_record_btn
+  _profit_record_btn: profit_record_btn
+  _modify_profit_btn: modify_profit_btn
+  _transfer: fund_transformation_textview
+  _redeem: fund_redeem_textview
+  _fix_buy: fund_pledge_textview
+  _add_buy: fund_add_more_btn
+  _expanded_menu: expanded_menu
+  _available_share: activity_myfund_fund_detail_enableShares_textview
+
+hold_fund_details:
+  _page_title: title_tv
+
+trade_undo:
+  _trade_alert: right_btn_tv
+  _undo_btn: cancel_bt
+
+confirm_undo:
+  _confirm_undo_btn: cancle_confirm_btn
+  _trade_status: business_state
+
+undo_success:
+  _success_text: is_success
+  _trade_content: buy_tv
+  _done_btn: confirm_btn
+
+trade_apply_records:
+  _trade_type: trade_type_ck
+  _trade_time: trade_date_ck
+  _all: //*[@text='全部']
+  _subscribe: //*[@text='认购']
+  _buy: //*[@text='申购']
+  _redeem: //*[@text='赎回']
+  _transfer: //*[@text='转换']
+  _undo: //*[@text='撤单']
+  _fix: //*[@text='定投']
+  _modify_dividend: //*[@text='修改分红方式']
+  _one_month: //*[@text='最近一个月']
+  _three_months: //*[@text='三个月']
+  _one_year: //*[@text='一年']
+  _trade_record: transaction_record_item
+  _state: state
+
+trade_record_details:
+  _trade_status: status
+  _trade_type: trade_type
+  _fund_type: fund_type
+  _status: status_tv

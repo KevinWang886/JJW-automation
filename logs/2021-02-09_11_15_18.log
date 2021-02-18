@@ -1,0 +1,4 @@
+2021-02-09 11:15:21,052 DEFAULT INFO appium服务已经启动：  TCP    127.0.0.1:4723         0.0.0.0:0              LISTENING       4392
+
+2021-02-09 11:15:56,396 DEFAULT INFO <page.guide_page.GuidePage object at 0x000000000582EA90> 页面中未能找到 account_et 元素
+2021-02-09 11:15:56,772 DEFAULT INFO 无法输入！！！

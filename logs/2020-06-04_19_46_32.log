@@ -1,0 +1,4 @@
+2020-06-04 19:46:34,532 DEFAULT INFO appium服务已经启动：  TCP    0.0.0.0:4723           0.0.0.0:0              LISTENING       13168
+
+2020-06-04 19:47:11,376 DEFAULT INFO <page.guide_page.GuidePage object at 0x0000000005697B70> 页面中未能找到 mobile_et 元素
+2020-06-04 19:47:11,855 DEFAULT INFO 无法输入！！！

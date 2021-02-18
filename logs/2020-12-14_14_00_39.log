@@ -1,0 +1,10 @@
+2020-12-14 14:00:41,490 DEFAULT INFO appium服务已经启动：  TCP    0.0.0.0:4723           0.0.0.0:0              LISTENING       11112
+  TCP    127.0.0.1:51044        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:51045        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:51046        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:51324        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:51325        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:51326        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:51332        127.0.0.1:4723         TIME_WAIT       0
+
+2020-12-14 14:01:21,692 DEFAULT INFO <page.guide_page.GuidePage object at 0x000000000578F400> 页面中未能找到 homeMenu 元素

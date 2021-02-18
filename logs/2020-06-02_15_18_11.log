@@ -1,0 +1,4 @@
+2020-06-02 15:18:14,097 DEFAULT INFO appium服务已经启动：  TCP    127.0.0.1:4724         0.0.0.0:0              LISTENING       11596
+
+2020-06-02 15:18:50,785 DEFAULT INFO <page.guide_page.GuidePage object at 0x00000000056C32B0> 页面中未能找到 wb_ck 元素
+2020-06-02 15:18:51,040 DEFAULT INFO 点击无效！！！

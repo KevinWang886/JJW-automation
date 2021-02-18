@@ -1,0 +1,29 @@
+- desc: 设备名称_夜神1,appium启动服务端口号_4723
+  port : 4723
+  desired_caps:
+    platformName: Android
+    deviceName: 127.0.0.1:62001
+    appPackage: com.linlong.fund.uat
+    appActivity: com.linlong.fund.ui.activity.SplashActivity
+    automationName: Uiautomator2
+    ip: localhost
+    udid: 127.0.0.1:62001
+    unicodeKeyboard: True
+    resetKeyboard: True
+    printPageSourceOnFindFailure: True
+  bootstrap-port: 4726
+
+- desc: 设备名称_夜神2,appium启动服务端口号_4724
+  port : 4724
+  desired_caps:
+    platformName: Android
+    deviceName: 127.0.0.1:62025
+    appPackage: com.linlong.fund.uat
+    appActivity: com.linlong.fund.ui.activity.SplashActivity
+    automationName: Uiautomator2
+    ip: localhost
+    udid: 127.0.0.1:62025
+    unicodeKeyboard: True
+    resetKeyboard: True
+    printPageSourceOnFindFailure: True
+  bootstrap-port: 4725

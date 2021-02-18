@@ -1,0 +1,14 @@
+2020-06-22 09:43:24,338 DEFAULT INFO <page.guide_page.GuidePage object at 0x0000000004B0D710> 页面中未能找到 tv 元素
+2020-06-22 09:43:26,451 DEFAULT INFO appium服务已经启动：  TCP    127.0.0.1:4724         0.0.0.0:0              LISTENING       5636
+  TCP    127.0.0.1:4724         127.0.0.1:64470        ESTABLISHED     5636
+  TCP    127.0.0.1:64470        127.0.0.1:4724         ESTABLISHED     11844
+
+2020-06-22 09:44:07,846 DEFAULT INFO <page.guide_page.GuidePage object at 0x0000000004B39E48> 页面中未能找到 tv 元素
+2020-06-22 09:44:09,905 DEFAULT INFO appium服务已经启动：  TCP    127.0.0.1:4724         0.0.0.0:0              LISTENING       5636
+  TCP    127.0.0.1:4724         127.0.0.1:64703        ESTABLISHED     5636
+  TCP    127.0.0.1:5037         127.0.0.1:64724        TIME_WAIT       0
+  TCP    127.0.0.1:64470        127.0.0.1:4724         TIME_WAIT       0
+  TCP    127.0.0.1:64701        127.0.0.1:4724         TIME_WAIT       0
+  TCP    127.0.0.1:64702        127.0.0.1:4724         TIME_WAIT       0
+  TCP    127.0.0.1:64703        127.0.0.1:4724         ESTABLISHED     11844
+

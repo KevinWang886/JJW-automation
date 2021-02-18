@@ -1,0 +1,9 @@
+2020-06-30 14:38:12,896 DEFAULT INFO appium服务已经启动：  TCP    127.0.0.1:4724         0.0.0.0:0              LISTENING       3440
+  TCP    127.0.0.1:51807        127.0.0.1:4724         TIME_WAIT       0
+  TCP    127.0.0.1:51808        127.0.0.1:4724         TIME_WAIT       0
+  TCP    127.0.0.1:51809        127.0.0.1:4724         TIME_WAIT       0
+  TCP    127.0.0.1:52070        127.0.0.1:4724         TIME_WAIT       0
+  TCP    127.0.0.1:52071        127.0.0.1:4724         TIME_WAIT       0
+  TCP    127.0.0.1:52072        127.0.0.1:4724         TIME_WAIT       0
+
+2020-06-30 14:39:02,519 DEFAULT INFO <page.guide_page.GuidePage object at 0x0000000005718320> 页面中未能找到 trade_type 元素

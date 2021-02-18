@@ -1,0 +1,4 @@
+2020-06-30 14:26:59,776 DEFAULT INFO appium服务已经启动：  TCP    127.0.0.1:4724         0.0.0.0:0              LISTENING       3440
+  TCP    127.0.0.1:50823        127.0.0.1:4724         TIME_WAIT       0
+
+2020-06-30 14:27:42,545 DEFAULT INFO <page.guide_page.GuidePage object at 0x00000000057635F8> 页面中未能找到 state 元素

@@ -1,0 +1,8 @@
+2020-07-01 16:12:48,517 DEFAULT INFO appium服务已经启动：  TCP    127.0.0.1:4724         0.0.0.0:0              LISTENING       3440
+  TCP    127.0.0.1:60612        127.0.0.1:4724         TIME_WAIT       0
+  TCP    127.0.0.1:60810        127.0.0.1:4724         TIME_WAIT       0
+  TCP    127.0.0.1:60811        127.0.0.1:4724         TIME_WAIT       0
+  TCP    127.0.0.1:60812        127.0.0.1:4724         TIME_WAIT       0
+
+2020-07-01 16:14:10,219 DEFAULT INFO <page.guide_page.GuidePage object at 0x00000000056A2080> 页面中未能找到 crs_btn 元素
+2020-07-01 16:14:10,464 DEFAULT INFO 点击无效！！！

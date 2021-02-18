@@ -1,0 +1,5 @@
+2020-06-03 08:55:46,049 DEFAULT INFO appium服务已经启动：  TCP    127.0.0.1:4724         0.0.0.0:0              LISTENING       11596
+
+2020-06-03 08:56:14,892 DEFAULT INFO 未进入定投页面
+2020-06-03 08:56:32,461 DEFAULT INFO <page.guide_page.GuidePage object at 0x00000000057183C8> 页面中未能找到 to_leftof_right_btn_iv 元素
+2020-06-03 08:56:33,319 DEFAULT INFO 点击无效！！！

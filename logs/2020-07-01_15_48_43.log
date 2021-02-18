@@ -1,0 +1,7 @@
+2020-07-01 15:48:45,999 DEFAULT INFO appium服务已经启动：  TCP    127.0.0.1:4724         0.0.0.0:0              LISTENING       3440
+  TCP    127.0.0.1:56945        127.0.0.1:4724         TIME_WAIT       0
+  TCP    127.0.0.1:57131        127.0.0.1:4724         TIME_WAIT       0
+  TCP    127.0.0.1:57132        127.0.0.1:4724         TIME_WAIT       0
+  TCP    127.0.0.1:57133        127.0.0.1:4724         TIME_WAIT       0
+
+2020-07-01 15:50:09,002 DEFAULT INFO <page.guide_page.GuidePage object at 0x00000000056B0940> 页面中未能找到 radio_no_cn_type 元素

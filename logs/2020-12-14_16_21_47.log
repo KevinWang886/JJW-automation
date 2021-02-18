@@ -1,0 +1,6 @@
+2020-12-14 16:21:49,426 DEFAULT INFO appium服务已经启动：  TCP    0.0.0.0:4723           0.0.0.0:0              LISTENING       11112
+  TCP    127.0.0.1:51191        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:51192        127.0.0.1:4723         TIME_WAIT       0
+
+2020-12-14 16:22:27,281 DEFAULT INFO <page.guide_page.GuidePage object at 0x00000000056F32B0> 页面中未能找到 ch_sendCheckCode 元素
+2020-12-14 16:22:27,449 DEFAULT INFO 点击无效！！！

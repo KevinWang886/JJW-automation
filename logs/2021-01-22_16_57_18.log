@@ -1,0 +1,4 @@
+2021-01-22 16:57:20,938 DEFAULT INFO appium服务已经启动：  TCP    0.0.0.0:4723           0.0.0.0:0              LISTENING       4304
+  TCP    127.0.0.1:4723         0.0.0.0:0              LISTENING       11260
+
+2021-01-22 16:58:12,361 DEFAULT INFO <page.guide_page.GuidePage object at 0x00000000058AFE10> 页面中未能找到 view_keyboard 元素

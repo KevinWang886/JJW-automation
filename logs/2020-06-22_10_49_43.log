@@ -1,0 +1,3 @@
+2020-06-22 10:49:45,494 DEFAULT INFO appium服务已经启动：  TCP    127.0.0.1:4724         0.0.0.0:0              LISTENING       14148
+
+2020-06-22 10:50:56,728 DEFAULT INFO <page.guide_page.GuidePage object at 0x00000000056EE390> 页面中未能找到 is_success 元素

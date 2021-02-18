@@ -1,0 +1,11 @@
+2020-06-08 16:24:54,759 DEFAULT INFO appium服务已经启动：  TCP    127.0.0.1:4724         0.0.0.0:0              LISTENING       3992
+  TCP    127.0.0.1:61345        127.0.0.1:4724         TIME_WAIT       0
+  TCP    127.0.0.1:61346        127.0.0.1:4724         TIME_WAIT       0
+  TCP    127.0.0.1:61347        127.0.0.1:4724         TIME_WAIT       0
+  TCP    127.0.0.1:61661        127.0.0.1:4724         TIME_WAIT       0
+  TCP    127.0.0.1:61662        127.0.0.1:4724         TIME_WAIT       0
+  TCP    127.0.0.1:61663        127.0.0.1:4724         TIME_WAIT       0
+  UDP    [::]:54724             *:*                                    1200
+
+2020-06-08 16:25:37,168 DEFAULT INFO <page.guide_page.GuidePage object at 0x00000000056FCB70> 页面中未能找到 more_btn 元素
+2020-06-08 16:25:37,875 DEFAULT INFO 点击无效！！！

@@ -1,0 +1,5 @@
+2020-06-11 19:09:49,574 DEFAULT INFO appium服务已经启动：  TCP    127.0.0.1:4724         0.0.0.0:0              LISTENING       3992
+  UDP    [::]:54724             *:*                                    1200
+
+2020-06-11 19:10:32,879 DEFAULT INFO <page.guide_page.GuidePage object at 0x00000000056A9278> 页面中未能找到 name_et 元素
+2020-06-11 19:10:33,556 DEFAULT INFO 无法输入！！！

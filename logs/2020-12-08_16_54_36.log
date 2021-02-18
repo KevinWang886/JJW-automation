@@ -1,0 +1,4 @@
+2020-12-08 16:54:38,611 DEFAULT INFO appium服务已经启动：  TCP    0.0.0.0:4723           0.0.0.0:0              LISTENING       62128
+
+2020-12-08 16:55:20,434 DEFAULT INFO <page.guide_page.GuidePage object at 0x00000000029532B0> 页面中未能找到 annual_income_tv 元素
+2020-12-08 16:55:20,690 DEFAULT INFO 点击无效！！！

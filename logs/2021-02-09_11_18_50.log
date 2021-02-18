@@ -1,0 +1,8 @@
+2021-02-09 11:18:52,849 DEFAULT INFO appium服务已经启动：  TCP    127.0.0.1:4723         0.0.0.0:0              LISTENING       4392
+  TCP    127.0.0.1:56937        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:57124        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:57125        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:57126        127.0.0.1:4723         TIME_WAIT       0
+
+2021-02-09 11:19:43,428 DEFAULT INFO <page.guide_page.GuidePage object at 0x00000000057DF7F0> 页面中未能找到 com.linlong.fund.debug2:id/add_pledge_btn 元素
+2021-02-09 11:19:43,734 DEFAULT INFO 点击无效！！！

@@ -1,0 +1,6 @@
+2020-06-24 09:29:53,642 DEFAULT INFO appium服务已经启动：  TCP    127.0.0.1:4724         0.0.0.0:0              LISTENING       3424
+  TCP    127.0.0.1:65436        127.0.0.1:4724         TIME_WAIT       0
+  TCP    127.0.0.1:65437        127.0.0.1:4724         TIME_WAIT       0
+  TCP    127.0.0.1:65438        127.0.0.1:4724         TIME_WAIT       0
+
+2020-06-24 09:30:32,540 DEFAULT INFO <page.guide_page.GuidePage object at 0x00000000056F8630> 页面中未能找到 //*[@text='恢复'] 元素
